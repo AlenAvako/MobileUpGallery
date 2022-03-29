@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		834583EA27F25FCF00F26F9A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834583E927F25FCF00F26F9A /* AuthService.swift */; };
+		834583EC27F303BA00F26F9A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834583EB27F303BA00F26F9A /* NetworkService.swift */; };
+		834583EE27F304D800F26F9A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834583ED27F304D800F26F9A /* API.swift */; };
+		834583F127F31EE000F26F9A /* PhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834583F027F31EE000F26F9A /* PhotoResponse.swift */; };
+		834583F327F32CDB00F26F9A /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834583F227F32CDB00F26F9A /* NetworkDataFetcher.swift */; };
 		83AEF1E027EE1BA300A1FC70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEF1DF27EE1BA300A1FC70 /* AppDelegate.swift */; };
 		83AEF1E227EE1BA300A1FC70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEF1E127EE1BA300A1FC70 /* SceneDelegate.swift */; };
 		83AEF1E427EE1BA300A1FC70 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEF1E327EE1BA300A1FC70 /* LogInViewController.swift */; };
@@ -14,13 +19,17 @@
 		83AEF1EC27EE1BA500A1FC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AEF1EA27EE1BA500A1FC70 /* LaunchScreen.storyboard */; };
 		83AEF1F727EE21BE00A1FC70 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEF1F627EE21BE00A1FC70 /* LogInView.swift */; };
 		83AEF1F927EE227700A1FC70 /* PublicExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEF1F827EE227700A1FC70 /* PublicExtensions.swift */; };
-		83AEF1FC27EE276F00A1FC70 /* VKLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEF1FB27EE276E00A1FC70 /* VKLogInViewController.swift */; };
-		83AEF1FE27F0B5D000A1FC70 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEF1FD27F0B5D000A1FC70 /* WebView.swift */; };
+		83AEF1FC27EE276F00A1FC70 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEF1FB27EE276E00A1FC70 /* PhotoCollectionViewController.swift */; };
 		97CB302DC2AE584C6FF92A65 /* Pods_MobileUpGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7E6905823D823FF415D316 /* Pods_MobileUpGallery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D7E6905823D823FF415D316 /* Pods_MobileUpGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileUpGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		834583E927F25FCF00F26F9A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		834583EB27F303BA00F26F9A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		834583ED27F304D800F26F9A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		834583F027F31EE000F26F9A /* PhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResponse.swift; sourceTree = "<group>"; };
+		834583F227F32CDB00F26F9A /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		83AEF1DC27EE1BA300A1FC70 /* MobileUpGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileUpGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AEF1DF27EE1BA300A1FC70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83AEF1E127EE1BA300A1FC70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +39,7 @@
 		83AEF1ED27EE1BA500A1FC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83AEF1F627EE21BE00A1FC70 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		83AEF1F827EE227700A1FC70 /* PublicExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicExtensions.swift; sourceTree = "<group>"; };
-		83AEF1FB27EE276E00A1FC70 /* VKLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLogInViewController.swift; sourceTree = "<group>"; };
-		83AEF1FD27F0B5D000A1FC70 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		83AEF1FB27EE276E00A1FC70 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		C5549A88E26747D1FE7AA171 /* Pods-MobileUpGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileUpGallery.debug.xcconfig"; path = "Target Support Files/Pods-MobileUpGallery/Pods-MobileUpGallery.debug.xcconfig"; sourceTree = "<group>"; };
 		C7BC4AF98BA30A342270A4CF /* Pods-MobileUpGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileUpGallery.release.xcconfig"; path = "Target Support Files/Pods-MobileUpGallery/Pods-MobileUpGallery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,8 +62,26 @@
 				C5549A88E26747D1FE7AA171 /* Pods-MobileUpGallery.debug.xcconfig */,
 				C7BC4AF98BA30A342270A4CF /* Pods-MobileUpGallery.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		834583E827F25FBE00F26F9A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				834583E927F25FCF00F26F9A /* AuthService.swift */,
+				834583EB27F303BA00F26F9A /* NetworkService.swift */,
+				834583ED27F304D800F26F9A /* API.swift */,
+				834583F227F32CDB00F26F9A /* NetworkDataFetcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		834583EF27F31E3E00F26F9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				834583F027F31EE000F26F9A /* PhotoResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		83AEF1D327EE1BA200A1FC70 = {
@@ -94,6 +120,8 @@
 		83AEF1F327EE214500A1FC70 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				834583EF27F31E3E00F26F9A /* Model */,
+				834583E827F25FBE00F26F9A /* Services */,
 				83AEF1FA27EE22AE00A1FC70 /* Extensions */,
 			);
 			path = Models;
@@ -103,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				83AEF1E327EE1BA300A1FC70 /* LogInViewController.swift */,
-				83AEF1FB27EE276E00A1FC70 /* VKLogInViewController.swift */,
+				83AEF1FB27EE276E00A1FC70 /* PhotoCollectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				83AEF1F627EE21BE00A1FC70 /* LogInView.swift */,
-				83AEF1FD27F0B5D000A1FC70 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,12 +275,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				83AEF1E427EE1BA300A1FC70 /* LogInViewController.swift in Sources */,
-				83AEF1FC27EE276F00A1FC70 /* VKLogInViewController.swift in Sources */,
+				83AEF1FC27EE276F00A1FC70 /* PhotoCollectionViewController.swift in Sources */,
+				834583EC27F303BA00F26F9A /* NetworkService.swift in Sources */,
+				834583F327F32CDB00F26F9A /* NetworkDataFetcher.swift in Sources */,
+				834583F127F31EE000F26F9A /* PhotoResponse.swift in Sources */,
 				83AEF1E027EE1BA300A1FC70 /* AppDelegate.swift in Sources */,
 				83AEF1F727EE21BE00A1FC70 /* LogInView.swift in Sources */,
 				83AEF1F927EE227700A1FC70 /* PublicExtensions.swift in Sources */,
 				83AEF1E227EE1BA300A1FC70 /* SceneDelegate.swift in Sources */,
-				83AEF1FE27F0B5D000A1FC70 /* WebView.swift in Sources */,
+				834583EE27F304D800F26F9A /* API.swift in Sources */,
+				834583EA27F25FCF00F26F9A /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

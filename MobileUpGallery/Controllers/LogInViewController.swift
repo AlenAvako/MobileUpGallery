@@ -6,14 +6,17 @@
 //
 
 import UIKit
+import VK_ios_sdk
 
 class LogInViewController: UIViewController {
     
     private let logInView = LogInView()
+    private var authService: AuthService!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        authService = SceneDelegate.shared().authService
         setUpLogInView()
     }
     
@@ -31,8 +34,6 @@ class LogInViewController: UIViewController {
 
 extension LogInViewController: LogInViewDelegate {
     func logInButtonPressed() {
-        let vkLogIn = VKLogInViewController()
-        vkLogIn.modalPresentationStyle = .fullScreen
-        present(vkLogIn, animated: true, completion: nil)
+        authService.wakeUpSession() 
     }
 }

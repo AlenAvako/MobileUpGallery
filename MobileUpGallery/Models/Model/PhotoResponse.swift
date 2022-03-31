@@ -18,4 +18,10 @@ struct PhotoResponse: Decodable {
 struct PhotoItem: Decodable {
     let id: Int
     let date: Double
+    let sizes: [Photos]
+}
+
+struct Photos: Decodable {
+    let url: String
+    let type: String
 }

@@ -69,12 +69,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate, AuthServiceDelegate {
 //    MARK: - AuthServiceDelegate
     
     func authServiceShouldShow(_ viewController: UIViewController) {
-        print(#function)
         window?.rootViewController?.present(viewController, animated: true, completion: nil )
     }
     
     func authServiceSignIn() {
-        print(#function)
         let photoCVC = PhotoCollectionViewController()
         let navVC = UINavigationController(rootViewController: photoCVC)
         navVC.navigationBar.tintColor = .black
